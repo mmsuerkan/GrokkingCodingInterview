@@ -1,4 +1,4 @@
-package org.example.challange3;
+package org.slidingWindow.challange3;
 
 public class MinSizeSubArraySum {
     public static int findMinSubArray(int S, int[] arr) {

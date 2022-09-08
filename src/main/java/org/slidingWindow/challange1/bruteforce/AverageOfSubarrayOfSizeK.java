@@ -1,4 +1,4 @@
-package org.example.challange1.bruteforce;
+package org.slidingWindow.challange1.bruteforce;
 
 import java.util.Arrays;
 
