@@ -5,9 +5,8 @@ class CyclicSort {
     public static void sort(int[] nums) {
         int i = 0;
         while (i < nums.length) {
-            int j = nums[i] - 1;
-            if (nums[i] != nums[j])
-                swap(nums, i, j);
+            if (nums[i] != nums[nums[i] - 1])
+                swap(nums, i, nums[i] - 1);
             else
                 i++;
         }
