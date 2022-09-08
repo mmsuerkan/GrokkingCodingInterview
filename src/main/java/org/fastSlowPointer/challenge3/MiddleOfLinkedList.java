@@ -1,4 +1,4 @@
-package org.fastSlowPointer.challange3;
+package org.fastSlowPointer.challenge3;
 
 
 class ListNode {

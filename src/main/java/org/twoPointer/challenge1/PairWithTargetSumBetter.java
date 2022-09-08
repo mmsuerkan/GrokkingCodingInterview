@@ -1,4 +1,4 @@
-package org.twoPointer.challange1;
+package org.twoPointer.challenge1;
 
 import java.util.HashMap;
 import java.util.Map;

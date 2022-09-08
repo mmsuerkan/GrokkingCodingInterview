@@ -1,4 +1,4 @@
-package org.fastSlowPointer.challange1;
+package org.fastSlowPointer.challenge1;
 
 public class LinkedListCycle {
     private static boolean hasCycle(LinkedListCycleLength.ListNode head) {

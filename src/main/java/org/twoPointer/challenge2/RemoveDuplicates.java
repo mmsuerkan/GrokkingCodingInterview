@@ -1,4 +1,4 @@
-package org.twoPointer.challange2;
+package org.twoPointer.challenge2;
 
 import java.util.Arrays;
 

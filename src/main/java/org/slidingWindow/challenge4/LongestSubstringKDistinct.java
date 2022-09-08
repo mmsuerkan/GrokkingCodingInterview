@@ -1,4 +1,4 @@
-package org.slidingWindow.challange4;
+package org.slidingWindow.challenge4;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package org.fastSlowPointer.challange2;
+package org.fastSlowPointer.challenge2;
 
 class ListNode {
     int value = 0;

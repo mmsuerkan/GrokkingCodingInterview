@@ -1,4 +1,4 @@
-package org.slidingWindow.challange2;
+package org.slidingWindow.challenge2;
 
 public class MaxSumSubArrayOfSizeKBetter {
     public static int findMaxSumSubArray(int k, int[] arr) {

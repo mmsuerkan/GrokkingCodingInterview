@@ -1,4 +1,4 @@
-package org.twoPointer.challange3;
+package org.twoPointer.challenge3;
 
 public class SortedArraySquares {
 
