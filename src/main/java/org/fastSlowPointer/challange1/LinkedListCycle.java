@@ -1,18 +1,8 @@
 package org.fastSlowPointer.challange1;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
-
-class ListNode {
-    int value = 0;
-    ListNode next;
-    ListNode(int value) {
-        this.value = value;
-    }
-}
-
 public class LinkedListCycle {
-    private static boolean hasCycle(ListNode head) {
-        ListNode slow = head,fast = head;
+    private static boolean hasCycle(LinkedListCycleLength.ListNode head) {
+        LinkedListCycleLength.ListNode slow = head,fast = head;
 
 
         while (fast != null && fast.next != null){
@@ -26,12 +16,12 @@ public class LinkedListCycle {
         return false;
     }
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
-        head.next.next.next.next.next = new ListNode(6);
+        LinkedListCycleLength.ListNode head = new LinkedListCycleLength.ListNode(1);
+        head.next = new LinkedListCycleLength.ListNode(2);
+        head.next.next = new LinkedListCycleLength.ListNode(3);
+        head.next.next.next = new LinkedListCycleLength.ListNode(4);
+        head.next.next.next.next = new LinkedListCycleLength.ListNode(5);
+        head.next.next.next.next.next = new LinkedListCycleLength.ListNode(6);
         System.out.println("LinkedList has cycle: " + LinkedListCycle.hasCycle(head));
 
         head.next.next.next.next.next.next = head.next.next;
