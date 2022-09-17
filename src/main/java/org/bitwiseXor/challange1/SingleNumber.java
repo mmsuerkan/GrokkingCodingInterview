@@ -1,4 +1,4 @@
-package org.bitwiseXor;
+package org.bitwiseXor.challange1;
 
 class SingleNumber {
     public static int findSingleNumber(int[] arr) {
