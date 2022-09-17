@@ -1,4 +1,4 @@
-package org.topKElement.challange1;
+package org.topKElement.challenge3;
 
 import java.util.ArrayList;
 import java.util.List;

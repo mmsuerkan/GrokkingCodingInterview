@@ -1,4 +1,4 @@
-package org.topKElement.challange1;
+package org.topKElement.challange2;
 
 import java.util.PriorityQueue;
 
