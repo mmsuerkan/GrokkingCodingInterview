@@ -1,16 +1,14 @@
 package org.dfs.challenge2;
 
-import org.dfs.challenge1.TreePathSum;
-
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-;
+class TreeNode{
 
+}
 public class FindAllTreePaths {
 
-    public static boolean hasPath(TreeNode root, int sum) {
+    public static boolean hasPath(TreeNode1 root, int sum) {
 
         if (root == null) {
             return false;
@@ -23,7 +21,7 @@ public class FindAllTreePaths {
 
     }
 
-    private static List<List<Integer>> findPaths(TreeNode root, int sum) {
+    private static List<List<Integer>> findPaths(TreeNode1 root, int sum) {
 
         List<List<Integer>> allPaths = new ArrayList<>();
         List<Integer> currentPath = new ArrayList<>();
@@ -32,7 +30,7 @@ public class FindAllTreePaths {
         return allPaths;
     }
 
-    private static void findPathsRecursive(TreeNode currentNode, int sum, List<List<Integer>> allPaths, List<Integer> currentPath) {
+    private static void findPathsRecursive(TreeNode1 currentNode, int sum, List<List<Integer>> allPaths, List<Integer> currentPath) {
 
         if(currentNode == null){
             return;
@@ -49,12 +47,12 @@ public class FindAllTreePaths {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(12);
-        root.left = new TreeNode(7);
-        root.right = new TreeNode(1);
-        root.left.left = new TreeNode(4);
-        root.right.left = new TreeNode(10);
-        root.right.right = new TreeNode(5);
+        TreeNode1 root = new TreeNode1(12);
+        root.left = new TreeNode1(7);
+        root.right = new TreeNode1(1);
+        root.left.left = new TreeNode1(4);
+        root.right.left = new TreeNode1(10);
+        root.right.right = new TreeNode1(5);
         int sum = 23;
         List<List<Integer>> result = FindAllTreePaths.findPaths(root, sum);
         System.out.println("Tree paths with sum " + sum + ": " + result);

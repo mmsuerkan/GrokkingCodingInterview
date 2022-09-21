@@ -1,4 +1,4 @@
-package org.dfs.challenge2;
+package org.dfs.challenge4;
 
 public class TreeNode {
     int val;

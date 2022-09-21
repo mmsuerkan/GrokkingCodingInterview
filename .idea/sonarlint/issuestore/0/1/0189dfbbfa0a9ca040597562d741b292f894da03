@@ -1,0 +1,8 @@
+
+q
+java:S1192"[Define a constant instead of duplicating this literal "Smallest subarray length: " 3 times.(ÞÚ›ð
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ð±²úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Òè›£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÞÚ›ð
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÞÚ›ð
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ÞÚ›ð
