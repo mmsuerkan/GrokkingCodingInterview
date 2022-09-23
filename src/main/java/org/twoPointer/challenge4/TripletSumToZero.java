@@ -25,7 +25,7 @@ public class TripletSumToZero {
         while(left < right) {
             int currentSum = arr[left] + arr[right];
             if(currentSum == targetSum) {
-                triplets.add(List.of(-targetSum, arr[left], arr[right]));
+              //  triplets.add(List.of(-targetSum, arr[left], arr[right]));
                 left++;
                 right--;
                 while(left < right && arr[left] == arr[left-1]) {
