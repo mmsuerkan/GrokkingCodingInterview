@@ -41,3 +41,13 @@ i
 9src/main/java/org/bfs/challenge1/LevelOrderTraversal.java,6\7\67a391483983dc3b6ba84262288bd55bbc205fbb
 e
 5src/main/java/org/bfs/challenge5/ZigzagTraversal.java,8\1\81cf913ef2d4bddf5c0bbfdcc994831ac405b722
+i
+9src/main/java/org/bfs/challenge6/LevelOrderSuccessor.java,4\f\4f0b7e44ee2c06707f72f83e4fb5dc215040a608
+o
+?src/main/java/org/bfs/challenge7/ConnectLevelOrderSiblings.java,4\2\422e8ad88cf1ec98f530714cfa6fc9dabf8d4903
+a
+1src/main/java/org/subsets/challenge1/Subsets.java,6\1\6197a296b8d19082800ce4de146273babd8b3387
+d
+4src/main/java/org/subsets/challenge1/SubsetsNew.java,5\d\5df578d6ddbf48fb71dbc53dcbb7613591dc3cca
+n
+>src/main/java/org/dynamicProgramming/challenge1/Factorial.java,0\9\09c2bdc02184410cde693c650b0fcd7f9c22f690
